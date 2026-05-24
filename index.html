@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox сторінка</title>
+<style>
+body{
+background-color:#C4F19D;
+color: darkgreen;
+display: flex;
+flex-direction: column;
+}
+header,footer{ 
+text-align: center;
+padding: 20px; 
+}
+.container{
+background-color: #D6FFC4;
+display: flex;
+justify-content: center;
+gap: 15px;
+padding: 20px;
+}
+
+.box{
+background-color:#EAFED8;
+color: darkgreen;
+width: 300px;
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+text-align: center;
+border: 2px solid #ccc;
+}
+
+img {
+ width: 250px;
+ height: 270px; 
+}
+ul{
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+ul li{
+list-style: none;}
+
+a{
+text-decoration: none;
+}
+
+nav{
+background-color: #5F7914;
+border-color: darkgreen;
+min-height: 54px;
+}
+
+nav li{
+float: left;
+width: 100px;
+}
+
+nav a{
+display: block;
+line-height: 4em;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+nav li a:hover{
+color: #DDF2A1;
+background-color: #3C5100;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<nav class="navbar">
+    <ul class="nav-list">
+	<li><a href="index.html">Головна</a></li>
+	<li><a href="about.html">Про нас</a></li>
+	<li><a href="gallery.html">Галерея</a></li>
+	<li><a href="form.html">Контакти</a></li>
+</ul>
+</nav>
+<h1>Найрозумніші тварини у світі</h1>
+<p><big>Розум це не лише про людей: деякі тварини здатні <br>
+мислити,навчатися і навіть дивувати своїми рішеннями
+</big></p>
+</header>
+<div class="container">
+	<div class="box">
+<p><b>Дельфін</b></p>
+<img src="https://images.unsplash.com/photo-1570481662006-a3a1374699e8?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9scGhpbnxlbnwwfHwwfHx8MA%3D%3D">
+<p>Дельфіни вважаються одними з найрозумніших тварин у світі.Вони спілкуються за допомогою звуків і можуть впізнавати себе в дзеркалі.Також вони допомагають один одному і навіть людям у складних ситуаціях</p>
+</div>
+
+<div class="box">
+<p><b>Ворон</b></p>
+<img src="https://images.pexels.com/photos/15548738/pexels-photo-15548738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+<p>Ворони мають дуже розвинене мислення і вміють вирішувати складні задачі.Вони можуть використовувати предмети як інструменти для добування їжі.Крім того, ці птахи здатні запам’ятовувати обличчя людей</p>
+</div>
+
+<div class="box">
+<p><b>Шимпанзе</b></p>
+<img src="https://images.pexels.com/photos/16725607/pexels-photo-16725607.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+<p>Шимпанзе найближчі до людини за рівнем розвитку тварини.Вони використовують палички як інструменти і можуть навчатися один в одного.Також вони вміють виражати емоції та працювати в команді</p>
+</div>
+
+</div>
+
+<footer>
+<p>Ліцей "Львівський"</p>
+<p>Створено ученицею 10-А класу Садовою Олесею</p>
+<p>2026</p>
+</footer>
+
+</body>
+</html>
