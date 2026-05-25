@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox сторінка</title>
+<style>
+body{
+background-color:#C4F19D;
+color: darkgreen;
+display: flex;
+flex-direction: column;
+}
+header,footer{ 
+text-align: center;
+padding: 20px; 
+}
+.container{
+background-color: #D6FFC4;
+display: flex;
+justify-content: center;
+gap: 15px;
+padding: 20px;
+}
+
+.box{
+background-color:#EAFED8;
+color: darkgreen;
+width: 300px;
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+text-align: center;
+border: 2px solid #ccc;
+}
+
+img {
+ width: 250px;
+ height: 270px; 
+}
+ul{
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+ul li{
+list-style: none;}
+
+a{
+text-decoration: none;
+}
+
+nav{
+background-color: #5F7914;
+border-color: darkgreen;
+min-height: 54px;
+}
+
+nav li{
+float: left;
+width: 100px;
+}
+
+nav a{
+display: block;
+line-height: 4em;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+nav li a:hover{
+color: #DDF2A1;
+background-color: #3C5100;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<nav class="navbar">
+    <ul class="nav-list">
+	<li><a href="index.html">Головна</a></li>
+	<li><a href="about.html">Про нас</a></li>
+	<li><a href="gallery.html">Галерея</a></li>
+	<li><a href="form.html">Контакти</a></li>
+</ul>
+</nav>
+<h1>Найрозумніші тварини у світі</h1>
+<p><big>Розум це не лише про людей: деякі тварини здатні <br>
+мислити,навчатися і навіть дивувати своїми рішеннями
+</big></p>
+</header>
+<div class="container">
+	<div class="box">
+<p><b>Дельфін</b></p>
+<img src="https://images.unsplash.com/photo-1570481662006-a3a1374699e8?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9scGhpbnxlbnwwfHwwfHx8MA%3D%3D">
+<p>Дельфіни вважаються одними з найрозумніших тварин у світі.Вони спілкуються за допомогою звуків і можуть впізнавати себе в дзеркалі.Також вони допомагають один одному і навіть людям у складних ситуаціях</p>
+</div>
+
+<div class="box">
+<p><b>Ворон</b></p>
+<img src="https://images.pexels.com/photos/15548738/pexels-photo-15548738.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+<p>Ворони мають дуже розвинене мислення і вміють вирішувати складні задачі.Вони можуть використовувати предмети як інструменти для добування їжі.Крім того, ці птахи здатні запам’ятовувати обличчя людей</p>
+</div>
+
+<div class="box">
+<p><b>Шимпанзе</b></p>
+<img src="https://images.pexels.com/photos/16725607/pexels-photo-16725607.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+<p>Шимпанзе найближчі до людини за рівнем розвитку тварини.Вони використовують палички як інструменти і можуть навчатися один в одного.Також вони вміють виражати емоції та працювати в команді</p>
+</div>
+
+</div>
+<div class="container">
+<div class="box">
+<p><b>Восьминіг</b></p>
+<img src="https://i.pinimg.com/236x/5c/7a/1e/5c7a1e0e4ebf0f6e4f7709791ae7aff4.jpg">
+<p>Ці істоти здатні грати, розрізняти форми і візерунки, вирішувати загадки, орієнтуватися в лабіринтах. Вони володіють короткочасною і довгостроковою пам'яттю, при цьому з легкістю піддаються гіпнозу.</p>
+</div>
+
+<div class="box">
+<p><b>Білка</b></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D0%91%D1%96%D0%BB%D0%BA%D0%B0_%28Sciurus_vulgaris%29.jpg/330px-%D0%91%D1%96%D0%BB%D0%BA%D0%B0_%28Sciurus_vulgaris%29.jpg">
+<p>Розмір мозку у цього верткого звірка - з велику горошину, він дозволяє їм чудово орієнтуватися в просторі, володіти блискучим інтелектом і рідкісною пам'яттю. Вони здатні думати і аналізувати.</p>
+</div>
+
+<div class="box">
+<p><b>Щур</b></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Water.vole.arp.jpg">
+<p>Щури швидко навчаються та мають чудову пам’ять. Вони легко знаходять вихід із лабіринтів і можуть працювати в групах. Завдяки цьому щурів часто використовують у наукових дослідженнях.</p>
+</div>
+
+</div>
+
+<div class="container">
+	<div class="box">
+<p><b>Бджола медоносна</b></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Apis_mellifera_Tanzania.jpg">
+<p>Бджоли спілкуються між собою за допомогою “танцю”, передаючи інформацію про квіти. Вони можуть орієнтуватися на великій відстані та запам’ятовувати маршрути. Їхня організація вулика дуже складна.</p>
+</div>
+
+<div class="box">
+<p><b>Косатка</b></p>
+<img src="https://pixnio.com/free-images/2025/01/07/2025-01-07-20-23-28-1344x1344.jpeg">
+<p>Косатки мають дуже складну систему звуків для спілкування. Вони полюють у групах і навчають своїх дитинчат різним навичкам. Косатки також здатні створювати власні “традиції” всередині групи.</p>
+</div>
+
+<div class="box">
+<p><b>Видра</b></p>
+<img src="https://pixnio.com/free-images/2018/08/21/2018-08-21-21-42-45-576x522.jpg">
+<p>Видри можуть використовувати каміння як інструменти для розбивання мушель. Вони швидко навчаються, мають хорошу пам’ять і люблять гратися. Морські видри часто тримаються за лапки під час сну, щоб не відпливати одна від одної.</p>
+</div>
+
+</div>
+<p align="center">Дізнатися більше можна на сайті<a href="https://espreso.tv/article/2014/12/23/top_10_nayrozumnishykh_tvaryn" target="_blank"> Топ-10 найрозумніших тварин</p></a>
+<footer>
+<p>Ліцей "Львівський"</p>
+<p>Створено ученицею 10-А класу Садовою Олесею</p>
+<p>2026</p>
+</footer>
+
+</body>
+</html>
